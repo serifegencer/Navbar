@@ -5,19 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="header">
       <ul>
-        <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
-        <li><a href="#"><i class="fa-solid fa-user"></i>About</a></li>
-        <li><a href="#"><i class="fa-solid fa-database"></i>Service</a></li>
-        <li><a href="#"><i class="fa-solid fa-users"></i>Customer</a></li>
-        <li><a href="#"><i class="fa-solid fa-headset"></i>Support</a></li>
-        <li><a href="#"><i class="fa-solid fa-hand-holding-dollar"></i>Price</a></li>
-        <li><a href="#"><i class="fa-solid fa-pen"></i>Education</a></li>
-        <li><a href="#"><i class="fa-solid fa-phone-flip"></i>Contact</a></li>
+        <li class="active">
+          <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-user"></i>About</a>
+          <div class="menu-1">
+            <ul>
+              <li><a href="#">Our Mission</a></li>
+              <li><a href="#">Our Vision</a></li>
+              <li><a href="#">Our Team</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-database"></i>Service</a>
+          <div class="menu-1">
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li class="hover-me">
+                <a href="#">Market </a><i class="fas fa-caret-right"></i>
+                <div class="menu-2">
+                  <ul>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Social Media</a></li>
+                    <li><a href="#">Email Market</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hover-me">
+                <a href="#">Mobile App</a>
+                <i class="fas fa-caret-right"></i>
+                <div class="menu-2">
+                  <ul>
+                    <li><a href="#">Android App</a></li>
+                    <li><a href="#">Ios App</a></li>
+                    <li><a href="#">Windows App</a></li>
+                    <li><a href="#">Flutter App</a></li>
+                    <li><a href="#">Unity App</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-users"></i>Customer</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-headset"></i>Support</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-hand-holding-dollar"></i>Price</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-pen"></i>Education</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-phone-flip"></i>Contact</a>
+        </li>
       </ul>
     </div>
   </body>
