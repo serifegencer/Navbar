@@ -8,7 +8,7 @@ body{
    
     background-image: url(space.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     font-family: sans-serif;
     
 }
@@ -88,29 +88,9 @@ ul li  i {
     margin-top: -40px;
     margin-left: 150px;
     font-size: 12px;
-
-
 }
-
-
-   /* .header li:hover .menu-2 ul {
-    display: block;
- } */
- .header li:hover .menu-2 ul li {
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted white ;
-    background: transparent;
-    text-align: left;
-    border-radius: 0;
-    cursor: pointer;
-}
- .header li:hover .menu-2 ul .hover-me a:hover {
-    color: #b2ff00;
-} 
-
 .fa-caret-right{
    font-size: 14px;
    color: white;
    float: right ;
-   }  
+}  
